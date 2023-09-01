@@ -1,0 +1,28 @@
+/* Increase the font size of the toast message */
+.Toastify__toast {
+    font-size: smaller;/* Change the font size to your desired value */
+  }
+  
+  /* Adjust padding and margins for the toast message */
+  .Toastify__toast-container {
+    padding: 0.5rem; /* Adjust padding as needed */
+    height: 50px;
+
+  }
+  
+  .Toastify__toast-body {
+    padding: 0.5rem; 
+    height: 50px;/* Adjust padding as needed */
+  }
+  
+  /* Change the width of the toast container */
+  .Toastify__toast-container.Toastify__toast-container--top-left,
+  .Toastify__toast-container.Toastify__toast-container--top-center,
+  .Toastify__toast-container.Toastify__toast-container--top-right,
+  .Toastify__toast-container.Toastify__toast-container--bottom-left,
+  .Toastify__toast-container.Toastify__toast-container--bottom-center,
+  .Toastify__toast-container.Toastify__toast-container--bottom-right {
+    width: 300px; /* Change the width to your desired value */
+    height: 50px;
+  }
+  
